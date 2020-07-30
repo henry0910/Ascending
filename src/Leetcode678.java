@@ -32,6 +32,30 @@ public class Leetcode678 {
 //        return open.isEmpty();
 //    }
 
+        // Two Pass Balance Check
+//    public boolean checkValidString(String s) {
+//        int bal = 0;
+//        for (char ch : s.toCharArray())
+//        {
+//            if (ch == '(' || ch == '*') bal++;
+//            else bal--;
+//            if (bal < 0) return false;
+//        }
+//
+//        bal = 0;
+//
+//        for (int i = s.length() - 1; i >= 0; --i)
+//        {
+//            char ch = s.charAt(i);
+//
+//            if (ch == ')' || ch == '*') bal++;
+//            else bal--;
+//            if (bal < 0) return false;
+//        }
+//
+//        return true;
+//    }
+
 
     boolean[][] dp;
     public boolean checkValidString(String s)
